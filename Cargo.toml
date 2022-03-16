@@ -1,0 +1,12 @@
+[package]
+name = "sm"
+version = "0.1.0"
+edition = "2021"
+
+[profile.dev.package.num-bigint-dig]
+opt-level = 3
+
+[dependencies]
+hex = "0.4.3"
+rand = "0.8.5"
+rsa = "0.5.0"
